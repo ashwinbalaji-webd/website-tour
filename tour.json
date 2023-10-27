@@ -1,0 +1,203 @@
+{
+  "mask": true,
+  "theme": {
+    "popUpColor": "#f1ecdc",
+    "typoTheme": "#222",
+    "maskColor": "#00000080",
+    "highlighter": "#d4850d"
+  },
+  "displayStatus": true,
+  "welcomeModalContent": {
+    "title": "Welcome to [Website Name]",
+    "body": "Let's get started! Click 'Start' to begin your guided tour, or feel free to explore on your own."
+  },
+  "elements": [
+    {
+      "id": "tourElement1",
+      "order": "1",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 1",
+        "description": "Discription for element 1"
+      }
+    },
+    {
+      "id": "tourElement2",
+      "order": "3",
+      "maskColor": "#99c3c180",
+      "highlighter": "#cce1e0",
+      "content": {
+        "image": "",
+        "title": "Element 2",
+        "description": "Discription for element 2"
+      }
+    },
+    {
+      "id": "tourElement3",
+      "order": "2",
+      "maskColor": "#aac9f380",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 3",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement9",
+      "order": "25",
+      "maskColor": "#beacdf80",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 9",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement13",
+      "order": "9",
+      "maskColor": "#ffcc5c80",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 13",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement14",
+      "order": "7",
+      "maskColor": "#ff6f6980",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 14",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement15",
+      "order": "12",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 15",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement16",
+      "order": "5",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 16",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement17",
+      "order": "19",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 17",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement18",
+      "order": "6",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 18",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement19",
+      "order": "14",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 19",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement20",
+      "order": "22",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 20",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement21",
+      "order": "16",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 21",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement22",
+      "order": "2",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 22",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement23",
+      "order": "2",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 23",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement24",
+      "order": "2",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 24",
+        "description": "Discription for modal content"
+      }
+    },
+    {
+      "id": "tourElement25",
+      "order": "2",
+      "maskColor": "#00000080",
+      "highlighter": "#d4850d",
+      "content": {
+        "image": "",
+        "title": "Element 25",
+        "description": "Discription for modal content"
+      }
+    }
+  ]
+}

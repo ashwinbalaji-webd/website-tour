@@ -1,0 +1,57 @@
+Website tour
+
+-> Draw a random grid layout with elements.
+-> Create a JSON which contains each elements 
+    tour type : modal or non-modal,
+    theme : light, dark
+    elements
+        id, 
+        order,
+        mask style
+        content:
+            image,
+            title, 
+            description
+            previous , next , finish button
+
+-> Find current elements position (getClientBoundingRect) in the viewport.
+-> Find the four divs positions to place around the element.
+-> Prepare the modal for start tour and place at the center.
+-> if the user clicks begin, preapare and place the modal at the appropriate place next to the respective element with the content.
+-> User should be able to traverse through the elements one by one on clicking the 'previous' and 'next' buttons.
+-> User can end the tour at any time.
+-> Once ended, user can start the tour by clicking start tour button.
+
+
+this.getClientBoundingRect : {
+    "x": 80,
+    "y": 50,
+    "width": 152,
+    "height": 50,
+    "top": 50,
+    "right": 232,
+    "bottom": 100,
+    "left": 80
+}
+
+
+ALGORITH TO FIND POSITION TO PLACE MODAL
+right - (window.innerwidth - active el's right) > modal's width 
+        && 
+        (window.innerheight - active el's top) > modal's height
+
+left -  (active el's left) > modal's width
+        &&
+        (window.innerheight - active el's top) > modal's height
+
+bottom - (window.innerheight - active el's bottom) > modal's height
+            &&
+            active el'd left > (modal's width/2 - active el's width/2)
+            &&
+            (window.innerwidth - active el's right) > (modal's width/2 - active el's width/2)
+
+top - (active el's top > modal's height)
+        &&
+        active el'd left > (modal's width/2 - active el's width/2)
+        &&
+        (window.innerwidth - active el's right) > (modal's width/2 - active el's width/2)

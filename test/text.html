@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./styletest.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+        <button>Click me!</button>
+    </div>
+    <!-- <div
+      class="ant-tour-mask css-3mqfnx"
+      style="position: fixed; inset: 0px; z-index: 1001; pointer-events: none"
+    >
+      <svg style="width: 100%; height: 100%">
+        <defs>
+          <mask id="ant-tour-mask-:r4p:">
+            <rect x="0" y="0" width="100vw" height="100vh" fill="white"></rect>
+            <rect
+              x="364.875"
+              y="162.875"
+              rx="2"
+              width="110.6875"
+              height="44"
+              fill="black"
+              class="ant-tour-placeholder-animated"
+            ></rect>
+          </mask>
+        </defs>
+        <rect
+          x="0"
+          y="0"
+          width="100%"
+          height="100%"
+          fill="rgba(0,0,0,0.5)"
+          mask="url(#ant-tour-mask-:r4p:)"
+          style="display:auto"
+        ></rect>
+        <rect
+          fill="transparent"
+          pointer-events="auto"
+          x="0"
+          y="0"
+          width="100%"
+          height="162.875"
+          style="display: auto"
+        ></rect>
+        <rect
+          fill="transparent"
+          pointer-events="auto"
+          x="0"
+          y="0"
+          width="364.875"
+          height="100%"
+          style="display: auto"
+        ></rect>
+        <rect
+          fill="transparent"
+          pointer-events="auto"
+          x="0"
+          y="206.875"
+          width="100%"
+          height="calc(100vh - 206.875px)"
+          style="display: auto"
+        ></rect>
+        <rect
+          fill="transparent"
+          pointer-events="auto"
+          x="475.5625"
+          y="0"
+          width="calc(100vw - 475.5625px)"
+          height="100%"
+          style="display: auto"
+        ></rect>
+      </svg>
+    </div> -->
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Define the mask named "myMask" -->
+        <mask id="myMask">
+          <!-- Create a white rectangle with a circular cutout in the center -->
+          <rect width="100%" height="100%" fill="white" />
+          <circle cx="100" cy="100" r="80" fill="black" />
+        </mask>
+
+        <rect x="10" y="10" width="180" height="180" fill="blue" mask="url(#myMask)" />
+      
+        <rect x="10" y="10" width="180" height="180" fill="transparent" id="clickable-area" />
+      
+        <a href="https://example.com">
+          <text x="100" y="100" text-anchor="middle" dy="0.3em" font-size="16" fill="white">Click me</text>
+        </a>
+      </svg>
+      
+      
+    
+  </body>
+</html>
