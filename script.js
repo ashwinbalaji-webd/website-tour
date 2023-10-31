@@ -252,6 +252,7 @@ SiteTour.prototype.startTour = async function () {
 
 // Method to end the site tour
 SiteTour.prototype.endTour = function () {
+  this.began = false;
   document.getElementById("tour--backdrop-container").remove();
   document.getElementById("tour--description-modal").remove();
   document.getElementById("tour--theme-changer").remove();
@@ -512,6 +513,7 @@ SiteTour.prototype.closeWelcomeModal = function () {
 
 // Clears the tour-related elements and restores the normal view.
 SiteTour.prototype.clear = function (elementId) {
+  this.began = false;
   const parentEl = document.getElementById(elementId);
   this.themeChangerEl.style.display = "none";
   tourEl.style.display = "block";
